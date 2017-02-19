@@ -23,9 +23,18 @@ A股股票分析
 
 todo		增加语义分析，机器学习，回测，交易等
 
+-----------------------commit command in git bash-------------------------
+$ git config --global user.name "telefar"
+git config --global user.email "telefar@126.com"
+
+cd f:/spb_data/stockEye
+git remote add origin git@github.com:telefar/stockEye
+git add .
+git commit -m "first commit"
 
 ----------------------history-------------------------------
 
 2017
 9:48 2017-02-19
 正式生成新项目，命名为stockEye，寓意股市透视眼
+
