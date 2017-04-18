@@ -10,4 +10,3 @@ def update_market():
     #存入数据库
     df.to_sql('current_market',engine,flavor='mysql',if_exists='replace')
     print("Done")
-

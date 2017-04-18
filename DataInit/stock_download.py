@@ -5,6 +5,7 @@ import urllib2,socket,threading,time,random,re,MySQLdb
 import tushare 
 import config.Globaldata as G
 
+'''
 #每一步
 def get_stock(stock_list,start,end,type):
 	while len(stock_list)>0:
@@ -59,4 +60,4 @@ def download(start,end,type):
 	#	t.start()
 	get_stock(stock_list_temp,start,end,type)
 		
-
+'''

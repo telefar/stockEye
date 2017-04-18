@@ -1,0 +1,26 @@
+---- tushare_download Matches (21 in 4 files) ----
+calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
+calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
+calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
+calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
+calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
+calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
+calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
+calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
+dataselect.py (select):        filename = conf.tushare_download +'./%s.csv'%stockCode
+downstock.py (DataUpdate):	filename = conf.tushare_download+'./%s.csv'%stockCode
+Globaldata.py (config):tushare_download = "F:/SPB_Data/stockEye/DataUpdate/data"
+---- tushare_download Search Errors Encountered (2) ----
+The following 2 files could not be processed:
+F:\SPB_Data\stockEye\si\stockEye.IAB : File could not be opened.
+F:\SPB_Data\stockEye\si\stockEye.IMB : File could not be opened.

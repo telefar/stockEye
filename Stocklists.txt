@@ -1,0 +1,18 @@
+
+1-lynic				usstock.py采集美股数据/函数参数比较完备/几个技术指标
+2-wxStocks4-master 		无法下载wx，放弃
+3-lhrkkk			空目录，文件没啥内容
+4-khe004/stock			from matplotlib.finance import candlestick_ohlc 获取每股数据/画蜡烛图库函数
+
+5-CloudGao			数据抓取 存取进数据库方式
+
+6-stock-master (liulirun)   	集成全局变量/发邮件到cloudgao
+select-josephzhong		machine learning tree
+
+stock-master (z10g)		黄金/etf，现金策略
+
+https://mp.weixin.qq.com/wxopen/devprofile?action=get_profile&token=544093605&lang=zh_CN
+
+AppSecret(小程序密钥)
+
+d561001f3f552ee6f1c1b589ad37b300

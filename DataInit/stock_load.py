@@ -4,6 +4,7 @@ import MySQLdb
 import os
 import config.Globaldata as G
 
+'''
 def load(date):
 	try:
 		conn=MySQLdb.connect(host="localhost",user="root",passwd="1234",db="stock_1")
@@ -36,4 +37,4 @@ def load(date):
 			print file + " success"
 	cur.close()
 	conn.close()
-
+'''
