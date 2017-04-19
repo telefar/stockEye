@@ -1,67 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12ecf503-5cdc-4543-a7e7-7d0abcb0d76d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/helper/Send2WeChatPublic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DataUpdate/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/testTushare.py" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\dictionaries\phabio.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\stockanalyse-my.iml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\.spyderworkspace" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\MyStock.udb" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\allstdata3.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\analyse20161115.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\analyse20161120.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\calcmoney.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\calcstock.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\cydata.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\downstock.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\everydayupdate.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\find10per.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\getdayprice.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\getfifteentrade.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\gettiaokong.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\leancloudtest.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\leanmoney.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\leanrest.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\leanvolumepush.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\lineml.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\manualmongo.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\mergeweek.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\mongolabtest.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\myOwnStock.csv" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\newinstructor.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\scitest.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\szdata.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\testtu.py" afterPath="" />
-      <change type="DELETED" beforePath="F:\SPB_Data\stockEye\stockanalyse-my\verifydate.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.IAB" afterPath="$PROJECT_DIR$/si/stockEye.IAB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.IAD" afterPath="$PROJECT_DIR$/si/stockEye.IAD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.IMB" afterPath="$PROJECT_DIR$/si/stockEye.IMB" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.IMD" afterPath="$PROJECT_DIR$/si/stockEye.IMD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.PFI" afterPath="$PROJECT_DIR$/si/stockEye.PFI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.PRI" afterPath="$PROJECT_DIR$/si/stockEye.PRI" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.PR" afterPath="$PROJECT_DIR$/si/stockEye.PR" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.PS" afterPath="$PROJECT_DIR$/si/stockEye.PS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/Globaldata.py" afterPath="$PROJECT_DIR$/config/Globaldata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataUpdate/deletoneday.py" afterPath="$PROJECT_DIR$/DataUpdate/deletoneday.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataInit/init_stock_market.py" afterPath="$PROJECT_DIR$/DataInit/init_stock_market.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si/stockEye.PO" afterPath="$PROJECT_DIR$/si/stockEye.PO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataInit/stock_download.py" afterPath="$PROJECT_DIR$/DataInit/stock_download.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataInit/stock_load.py" afterPath="$PROJECT_DIR$/DataInit/stock_load.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataUpdate/update_stock_market.py" afterPath="$PROJECT_DIR$/DataUpdate/update_stock_market.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="12ecf503-5cdc-4543-a7e7-7d0abcb0d76d" name="Default" comment="" />
     <ignored path="DataSpider.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -120,7 +60,7 @@
       <file leaf-file-name="checkEveryday.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/checkEveryday.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8935406" vertical-offset="0" max-vertical-offset="3423">
+            <state vertical-scroll-proportion="0.826555" vertical-offset="2564" max-vertical-offset="3423">
               <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
               <folding>
                 <element signature="e#60#80#0" expanded="true" />
@@ -172,7 +112,7 @@
       <file leaf-file-name="Send2WeChatPublic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helper/Send2WeChatPublic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state vertical-scroll-proportion="0.0" vertical-offset="231" max-vertical-offset="735">
               <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding />
             </state>
@@ -293,6 +233,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,98 +249,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strategy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="select" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataSpider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stockEye" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursera-compinvest1-master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursera-compinvest1-master" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,7 +296,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -795,28 +643,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15458423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43329534" sideWeight="0.2791197" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2736602" sideWeight="0.49973163" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.43329534" sideWeight="0.7208803" order="2" side_tool="true" content_ui="tabs" x="1395" y="195" width="450" height="776" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15298508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2588047" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23375143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.43329534" sideWeight="0.7208803" order="2" side_tool="true" content_ui="tabs" x="1395" y="195" width="450" height="776" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23375143" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1245,7 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/checkEveryday.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8935406" vertical-offset="0" max-vertical-offset="3423">
+        <state vertical-scroll-proportion="0.826555" vertical-offset="2564" max-vertical-offset="3423">
           <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
           <folding>
             <element signature="e#60#80#0" expanded="true" />
