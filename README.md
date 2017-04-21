@@ -1,4 +1,4 @@
-﻿.LOG
+.LOG
 
 #——本文件 用notepad打开 2017-02-19
 
@@ -38,3 +38,7 @@ git commit -m "first commit"
 9:48 2017-02-19
 正式生成新项目，命名为stockEye，寓意股市透视眼
 
+
+# stockEye
+eyes into stock
+d6aa5fa2dee1c13d963fa29b2afecb0446949aaa
