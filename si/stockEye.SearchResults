@@ -1,26 +1,128 @@
----- tushare_download Matches (21 in 4 files) ----
-calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
-calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
-calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
-calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
-calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
-calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
-calcstock.py (analyse):		if os.path.exists(conf.tushare_download + '/'+x+'_ewma.csv')==False:
-calcstock.py (analyse):		stock_data = pandas.read_csv(conf.tushare_download + '/'+x+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-calcstock.py (analyse):	stock_data = pandas.read_csv(conf.tushare_download + '/' +stockCode+'_ewma.csv')
-dataselect.py (select):        filename = conf.tushare_download +'./%s.csv'%stockCode
-downstock.py (DataUpdate):	filename = conf.tushare_download+'./%s.csv'%stockCode
-Globaldata.py (config):tushare_download = "F:/SPB_Data/stockEye/DataUpdate/data"
----- tushare_download Search Errors Encountered (2) ----
+---- json Matches (125 in 23 files) ----
+calcmoney.py (analyse):import os,sys,json
+calcmoney.py (analyse):import json
+calcmoney.py (analyse):from bson import json_util
+dataselect.py (select):import json
+dataselect.py (select):def writeToJsonFileForTraining(dataArray):
+dataselect.py (select):    file = open("stock.json", "w")
+dataselect.py (select):    jsonobj = {"result": results, "lastClose_bMd": lastClose_bMds, "lastOpen_bMd": lastOpen_bMds, "lastClose_bUp": lastClose_bUps, "lastOpen_bUp": lastOpen_bUps, "thisChange": thisChanges, "thisOpen_bUp": thisOpen_bUps, "thisClose_bUp": thisClose_bUps, "thisV_b": thisV_bs, "ifHengPan": ifHengPans}
+dataselect.py (select):    jsonstr = json.dumps(jsonobj, separators=(",", ": "))
+dataselect.py (select):    file.write(jsonstr)
+dataselect.py (select):            ticks.insert(json.loads(results.to_json(orient='records')))
+downstock.py (DataUpdate):import json
+everydayupdate.py (analyse):import os,sys,json
+everydayupdate.py (analyse):import json
+everydayupdate.py (analyse):from bson import json_util
+find10per.py (analyse):import json
+find10per.py (analyse):	f = codecs.open('allstdata3.json','r',encoding='utf-8')
+find10per.py (analyse):	sss = json.loads(f.read())
+find10per.py (analyse):	f = codecs.open('allstdata3.json','r',encoding='utf-8')
+find10per.py (analyse):	sss = json.loads(f.read(),encoding='utf-8')
+getdayprice.py (analyse):import json
+getdayprice.py (analyse):#json_v2.php
+getdayprice.py (analyse):url="http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/Market_Center.getHQNodeData?num=3000&sort=changepercent&asc=0&node=hs_a&symbol=&_s_r_a=page&page=1"
+getfifteentrade.py (analyse):import os,sys,json
+getfifteentrade.py (analyse):import json
+getfifteentrade.py (analyse):#from bson import json_util
+getfifteentrade.py (analyse):	realtimeurl = "http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_Transactions.getAllPageTime?date="+tday+"&symbol="+stockCode
+getfifteentrade.py (analyse):#get kdj,back / macd,back / weekmacd , high / yaogu from local json file
+getfifteentrade.py (analyse):f = codecs.open('shdata.json','r',encoding='utf-8')
+getfifteentrade.py (analyse):shdatas = json.loads(f.read())
+getfifteentrade.py (analyse):f = codecs.open('szdata.json','r',encoding='utf-8')
+getfifteentrade.py (analyse):szdatas = json.loads(f.read())
+getfifteentrade.py (analyse):f = codecs.open('cydata.json','r',encoding='utf-8')
+getfifteentrade.py (analyse):cydatas = json.loads(f.read())
+gettiaokong.py (analyse):import os,sys,json
+gettiaokong.py (analyse):import json
+gettiaokong.py (analyse):#from bson import json_util
+gettiaokong.py (analyse):f = codecs.open('allstdata3.json','r',encoding='utf-8')
+gettiaokong.py (analyse):sss = json.loads(f.read())
+leancloudtest.py (analyse):import os,sys,json
+leancloudtest.py (analyse):import json
+leancloudtest.py (analyse):#get json file, insert into {{"everydaycy":[...]},{"everydaysh":[...]},{"everydaysz":[...]}}
+leancloudtest.py (analyse):f = codecs.open('cydata.json','r',encoding='utf-8')
+leancloudtest.py (analyse):datas = json.loads(f.read())
+leancloudtest.py (analyse):f = codecs.open('szdata.json','r',encoding='utf-8')
+leancloudtest.py (analyse):szdatas = json.loads(f.read())
+leancloudtest.py (analyse):f = codecs.open('shdata.json','r',encoding='utf-8')
+leancloudtest.py (analyse):szdatas = json.loads(f.read())
+leanmoney.py (analyse):import os,sys,json
+leanmoney.py (analyse):import json
+leanmoney.py (analyse):from bson import json_util
+leanmoney.py (analyse):	realtimeurl = "http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_Transactions.getAllPageTime?date="+tday+"&symbol="+stockCode
+leanmoney.py (analyse):f = codecs.open('allstdata3.json','r',encoding='utf-8')
+leanmoney.py (analyse):sss = json.loads(f.read())
+leanrest.py (analyse):import os,sys,json
+leanrest.py (analyse):import json
+leanrest.py (analyse):req.add_header("Content-Type","application/json")
+leanrest.py (analyse):	header = {"X-LC-Id":"qazb7phh0uxqarjyd0agnbw7qwu65xff0e98sbbejfx8wyat","X-LC-Key":"i1mhevfmnah0fpf5oqz09a5yun6cmjy90smj17j446tqs101","Content-Type":"application/json"}
+leanrest.py (analyse):	d = requests.post(url,params=rdata,data=json.dumps(rdata),headers=header)
+leanvolumepush.py (analyse):import os,sys,json
+leanvolumepush.py (analyse):import json
+leanvolumepush.py (analyse):req.add_header("Content-Type","application/json")
+leanvolumepush.py (analyse):	header = {"X-LC-Id":"qazb7phh0uxqarjyd0agnbw7qwu65xff0e98sbbejfx8wyat","X-LC-Key":"i1mhevfmnah0fpf5oqz09a5yun6cmjy90smj17j446tqs101","Content-Type":"application/json"}
+leanvolumepush.py (analyse):	d = requests.post(url,params=rdata,data=json.dumps(rdata),headers=header)
+lineml.py (analyse):import os,sys,json
+lineml.py (analyse):import json
+lineml.py (analyse):from bson import json_util
+manualmongo.py (analyse):import os,sys,json
+manualmongo.py (analyse):import json
+manualmongo.py (analyse):fff = codecs.open('allstdata.json','r',encoding='utf-8')
+manualmongo.py (analyse):sss = json.loads(fff.read())
+manualmongo.py (analyse):f = codecs.open('shdata.json','r',encoding='utf-8')
+manualmongo.py (analyse):shdatas = json.loads(f.read())
+manualmongo.py (analyse):f = codecs.open('szdata.json','r',encoding='utf-8')
+manualmongo.py (analyse):szdatas = json.loads(f.read())
+manualmongo.py (analyse):f = codecs.open('cydata.json','r',encoding='utf-8')
+manualmongo.py (analyse):cydatas = json.loads(f.read())
+mergeweek.py (analyse):import os,sys,json
+mergeweek.py (analyse):import json
+mergeweek.py (analyse):from bson import json_util
+mergeweek.py (analyse):	f = codecs.open('allstdata3.json','r',encoding='utf-8')
+mergeweek.py (analyse):	sss = json.loads(f.read())
+mongolabtest.py (analyse):import os,sys,json
+mongolabtest.py (analyse):import json
+mongolabtest.py (analyse):fff = codecs.open('allstdata3.json','r',encoding='utf-8')
+mongolabtest.py (analyse):sss = json.loads(fff.read())
+mongolabtest.py (analyse):shstr = json.dumps(rssh,ensure_ascii=False,indent=4)
+mongolabtest.py (analyse):szstr = json.dumps(rssz,ensure_ascii=False,indent=4)
+mongolabtest.py (analyse):cystr = json.dumps(rscy,ensure_ascii=False,indent=4)
+mongolabtest.py (analyse):ff = codecs.open('shdata.json','w',encoding='utf-8')
+mongolabtest.py (analyse):ff = codecs.open('szdata.json','w',encoding='utf-8')
+mongolabtest.py (analyse):ff = codecs.open('cydata.json','w',encoding='utf-8')
+MyStock.udb (analyse):{W÷FðD:\Anaconda2\Lib\json\scanner.py
+MyStock.udb (analyse):{W÷FðD:\Anaconda2\Lib\json\decoder.py
+MyStock.udb (analyse):{W÷FðD:\Anaconda2\Lib\json\encoder.py
+MyStock.udb (analyse):{W÷FðD:\Anaconda2\Lib\json\__init__.py
+MyStock.udb (analyse):.io.json.Parser.__init__.date_unit
+newinstructor.py (analyse):import os,sys,json
+newinstructor.py (analyse):import json
+newinstructor.py (analyse):from bson import json_util
+newinstructor.py (analyse):	f = codecs.open('allstdata3.json','r',encoding='utf-8')
+newinstructor.py (analyse):	sss = json.loads(f.read())
+scitest.py (analyse):import os,sys,json
+scitest.py (analyse):import json
+scitest.py (analyse):from bson import json_util
+stock.py (select\backup):def writeToJsonFileForTraining(dataArray):
+stock.py (select\backup):    file = open("stock.json", "w")
+stock.py (select\backup):    jsonobj = {}
+stock.py (select\backup):    jsonobj = {"result": results, "lastClose_bMd": lastClose_bMds, "lastOpen_bMd": lastOpen_bMds, "lastClose_bUp": lastClose_bUps, "lastOpen_bUp": lastOpen_bUps, "thisChange": thisChanges, "thisOpen_bUp": thisOpen_bUps, "thisClose_bUp": thisClose_bUps, "thisV_b": thisV_bs, "ifHengPan": ifHengPans}
+stock.py (select\backup):    jsonstr = json.dumps(jsonobj, separators=(",", ": "))
+stock.py (select\backup):    file.write(jsonstr)
+stock.py (select\backup):    jsonobj = {}
+stock.py (select\backup):#writeToJsonFileForTraining(stocks)
+testtu.py (analyse):import os,sys,json
+testtu.py (analyse):import json
+testtu.py (analyse):from bson import json_util
+testtu.py (analyse):	f = codecs.open('allstdata3.json','r',encoding='utf-8')
+testtu.py (analyse):	sss = json.loads(f.read())
+testtu.py (analyse):realtimeurl = "http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/CN_Transactions.getAllPageTime?date=2016-02-26&symbol=sz300262"
+verifydate.py (analyse):import os,sys,json
+verifydate.py (analyse):import json
+verifydate.py (analyse):from bson import json_util
+workspace.xml (analyse\.idea):    <entry file="file://$PROJECT_DIR$/cydata.json">
+workspace.xml (analyse\.idea):    <entry file="file://$PROJECT_DIR$/allstdata3.json">
+---- json Search Errors Encountered (2) ----
 The following 2 files could not be processed:
 F:\SPB_Data\stockEye\si\stockEye.IAB : File could not be opened.
 F:\SPB_Data\stockEye\si\stockEye.IMB : File could not be opened.

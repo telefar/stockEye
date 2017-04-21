@@ -5,6 +5,7 @@ __author__ = 'phabio.liu@aliyun.com'
 import tushare as ts
 import pandas as pd
 import pylab as plt
+import json
 
 from datetime import datetime
 from datetime import timedelta
@@ -134,15 +135,27 @@ def rongZiRongQuanSz():
 def shibor():
     df = ts.shibor_data() #ȡ��ǰ��ݵ�����
     #df = ts.shibor_data(2014) #ȡ2014�������
-    info = df.sort('date', ascending=False).head(10)
+    info = df.sort_values('date', ascending=False).head(10)
     title = "last 10 shibor"
     print title
-    print info
+    #print info
+
+
+    infostr = info.to_string()
+    infoline ='\n'
+    for i in infostr:
+        if i== '\n':
+            infoline.join("\n")
+        infoline.join(i)
+        print i
+    print infoline
+    raw_input()
     info.to_csv('report.csv')
     return title, info
 
 if __name__ == '__main__':
     print "start : ",time.strftime('%Y-%m-%d %X',time.localtime())
+    shibor()
     warningOnEndDayOfMonth()
     rongZiRongQuanSh()
     rongZiRongQuanSz()
