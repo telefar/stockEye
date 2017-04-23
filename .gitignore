@@ -88,6 +88,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+
 .csv
 .png
 .pub
@@ -95,3 +96,4 @@ ENV/
 .pdf
 .txt
 .log
+
