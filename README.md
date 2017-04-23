@@ -32,6 +32,8 @@ git remote add origin git@github.com:telefar/stockEye
 git add .
 git commit -m "first commit"
 
+git add *.py
+git commit -m "analyse stocks, verify etc.commit"
 ----------------------history-------------------------------
 
 2017
