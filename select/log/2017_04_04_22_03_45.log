@@ -1,9 +1,0 @@
-INFO:root:subthread started.
-INFO:root:tree1filter Good stocks: 
-INFO:root:002242		3.5	last day of data on 2017-03-30
-INFO:root:002130		3.5	last day of data on 2017-03-30
-INFO:root:2015-10-16 TP/FP: 100.00%/0.00% Average Growth: 3.207%
-INFO:root:2015-10-15 TP/FP: 100.00%/0.00% Average Growth: 5.991%
-INFO:root:2015-10-14 TP/FP: 50.00%/50.00% Average Growth: 0.548%
-INFO:root:2015-10-13 TP/FP: 100.00%/0.00% Average Growth: 9.017%
-INFO:root:2015-10-12 TP/FP: 0.00%/0.00% Average Growth: 0.000%
