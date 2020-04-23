@@ -1,9 +1,9 @@
 .LOG
 # stockEye：eyes into stock</p>
-1、基于规则AI的A股股票分析
-2、基于机器学习的验证方案
-3、基于fbprophet的预测方案
-4、传统技术分析
+1、基于规则AI的A股股票分析</br>
+2、基于机器学习的验证方案</br>
+3、基于fbprophet的预测方案</br>
+4、传统技术分析</br>
 
 依赖：
 1、tushare
