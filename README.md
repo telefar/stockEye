@@ -8,7 +8,7 @@
 依赖：
 1、tushare
 
- .idea
+ .idea</br>
 1、<DIR> config			全局配置文件</br>
 2、<DIR> DataInit			数据下载初始化</br>
 3、<DIR> DataUpdate			数据下载更新，每日刷新</br>
